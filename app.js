@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send("Welcome to IBM Cloud DevOps with Tekton. Let's go use the Continuous Delivery Service test CI");
+  res.send("Welcome to IBM Cloud DevOps with Tekton. Let's go use the Continuous Delivery Service test CI 2");
 });
 
 app.listen(PORT);
